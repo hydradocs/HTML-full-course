@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    gap: 2em;
+}
+.portfolio-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.edu-detail{
+    text-align: justify;
+}
+
+
+footer{
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    background-color: burlywood;  
+    padding-top: 20pt;
+    padding-bottom: 20pt;  
+}

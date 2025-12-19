@@ -43,3 +43,30 @@ footer{
     padding-top: 20pt;
     padding-bottom: 20pt;  
 }
+
+.button {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+    .button a {
+        color: white;
+        text-decoration: none;
+    }
+    .button:hover {
+        background-color: #45a049;
+    }
+
+    .button button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }

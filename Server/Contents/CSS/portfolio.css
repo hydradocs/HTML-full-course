@@ -70,3 +70,11 @@ footer{
         font-size: 16px;
         cursor: pointer;
     }
+
+    .btn2-2c{
+        background-color: bisque;
+        width: 100vw;
+    }
+    .btn2{
+        margin-top: 12px;
+    }
